@@ -1,0 +1,31 @@
+/*global rules*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+/*logo banner*/
+
+.banner {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.logo_banner {
+	color: white;
+	width: 960px;
+	display: flex;
+	align-items: center;
+	padding-top: .66rem;
+	padding-bottom: .66rem;
+}
+
+.logo_banner img {
+	height: 1.5rem;
+	padding-left: .5rem;
+	padding-right: 1rem;
+}
