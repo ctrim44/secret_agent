@@ -7,6 +7,7 @@ body {
 	font-family: Helvetica;
 }
 
+
 /*logo banner*/
 
 .banner {
@@ -17,8 +18,8 @@ body {
 
 .logo_banner {
 	color: white;
-	width: 960px;
 	display: flex;
+	width: 960px;
 	align-items: center;
 	padding-top: .66rem;
 	padding-bottom: .66rem;
@@ -28,4 +29,37 @@ body {
 	height: 1.5rem;
 	padding-left: .5rem;
 	padding-right: 1rem;
+}
+
+/* large banner*/
+
+.lrg_banner {
+	background-image: url("../images/moto.jpeg");
+	height: 25rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.new_arrival {
+	color: white;
+	font-weight: bold;
+	width: 960px;
+}
+
+.arrival_box p {
+	font-size: 2rem;
+	margin-top: .5rem;
+}
+
+.arrival_box {
+	max-width: 20rem;
+	padding: 2rem 3rem;
+	background-color: black;
+	margin-top: 9rem;
 }
