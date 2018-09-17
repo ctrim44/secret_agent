@@ -12,15 +12,14 @@ body {
 
 .banner {
 	background-color: black;
-	display: flex;
-	justify-content: center;
 }
 
 .logo_banner {
 	color: white;
 	display: flex;
-	width: 960px;
 	align-items: center;
+	width: 960px;
+	margin: auto;
 	padding-top: .66rem;
 	padding-bottom: .66rem;
 }
@@ -41,27 +40,24 @@ body {
 	background-size: cover;
 }
 
-.container {
+.new_arrival {
+	width: 960px;
+	margin: auto;
 	display: flex;
-	justify-content: center;
 }
 
-.new_arrival {
+.arrival_box {
+	width: 20rem;
+	background-color: black;
 	color: white;
+	padding: 2rem 3rem;
 	font-weight: bold;
-	width: 960px;
+	margin-top: 9rem;
 }
 
 .arrival_box p {
 	font-size: 2rem;
 	margin-top: .5rem;
-}
-
-.arrival_box {
-	max-width: 20rem;
-	padding: 2rem 3rem;
-	background-color: black;
-	margin-top: 9rem;
 }
 
 /* navigation bar */
