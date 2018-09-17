@@ -141,3 +141,18 @@ nav a {
 	margin-bottom: .25rem;
 	padding: 1rem 2rem;
 }
+
+/* footer */
+
+footer {
+	height: 7rem;
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.foot {
+	width: 960px;
+	margin: auto;
+}
