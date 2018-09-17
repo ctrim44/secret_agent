@@ -86,12 +86,13 @@ nav a {
 	width: 960px;
 	margin: auto;
 	margin-top: 3rem;
-	margin-bottom: 3rem;
+	margin-bottom: 4rem;
 }
 
 .gadgets {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 3rem;
 }
 
 .gadget_box {
@@ -121,4 +122,22 @@ nav a {
 	width: 9rem;
 	height: auto;
 	margin: 4rem;
+}
+
+/* Location and Hours Section */
+
+.loc_hours {
+	display: flex;
+	justify-content: space-between;
+}
+
+.loc_hours_box {
+	width: 35%;
+}
+
+#big {
+	background-color: black;
+	color: white;
+	margin-bottom: .25rem;
+	padding: 1rem 2rem;
 }
