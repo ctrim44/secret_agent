@@ -18,7 +18,7 @@ body {
 	color: white;
 	display: flex;
 	align-items: center;
-	width: 960px;
+	max-width: 960px;
 	margin: auto;
 	padding-top: .66rem;
 	padding-bottom: .66rem;
@@ -41,7 +41,7 @@ body {
 }
 
 .new_arrival {
-	width: 960px;
+	max-width: 960px;
 	margin: auto;
 	display: flex;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 nav {
-	width: 960px;
+	max-width: 960px;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
@@ -87,7 +87,7 @@ nav a {
 /* Gadgets Section */
 
 .info {
-	width: 960px;
+	max-width: 960px;
 	margin: auto;
 	margin-top: 3rem;
 	margin-bottom: 4rem;
@@ -157,7 +157,7 @@ footer {
 }
 
 .foot {
-	width: 960px;
+	max-width: 960px;
 	margin: auto;
 }
 
@@ -185,4 +185,48 @@ footer {
 	.loc_hours_box {
 		width: 35%;
 	}
+}
+
+@media only screen and (max-width: 470px) {
+
+	.lrg_banner {
+		height: 15rem;
+	}
+
+	.arrival_box {
+		width: 100%;
+		margin-top: 10rem;
+		padding: 1rem 2rem;
+	}
+
+	.arrival_box h1 {
+		font-size: .77rem;
+	}
+
+	.arrival_box p {
+		font-size: 1rem;
+	}
+
+	#watch {
+		display: none;
+	}
+
+	.gadgets {
+		justify-content: center;
+	}
+
+	.gadget_box {
+		width: 90%;
+	}
+
+	.loc_hours {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.loc_hours_box {
+		width: 90%;
+		padding-bottom: .5rem;
+	}
+
 }
