@@ -152,13 +152,12 @@ footer {
 	height: 7rem;
 	background-color: black;
 	color: white;
-	display: flex;
-	align-items: center;
 }
 
 .foot {
 	max-width: 960px;
 	margin: auto;
+	padding-top: 3rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -227,6 +226,10 @@ footer {
 	.loc_hours_box {
 		width: 90%;
 		padding-bottom: .5rem;
+	}
+
+	.foot {
+		text-align: center;
 	}
 
 }
