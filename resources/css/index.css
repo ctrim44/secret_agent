@@ -80,6 +80,10 @@ nav a {
 	color: white;
 }
 
+#menu {
+	display: none;
+}
+
 /* Gadgets Section */
 
 .info {
@@ -155,4 +159,30 @@ footer {
 .foot {
 	width: 960px;
 	margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+	#nav {
+		display: none;
+	}
+
+	#menu {
+		display: block; 
+	}
+
+	nav {
+		justify-content: center;
+	}
+
+	#glasses {
+		display: none;
+	}
+
+	.gadget_box {
+		width: 47%;
+	}
+
+	.loc_hours_box {
+		width: 35%;
+	}
 }
